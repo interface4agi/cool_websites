@@ -1,0 +1,8 @@
+{
+  "name": "lithos",
+  "type": "vite-react-ts",
+  "styling": "tailwindcss@3",
+  "icons": "lucide-react",
+  "docs": "md/",
+  "entry": "src/main.tsx"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_name": "cool_websites",
+  "purpose": "Build prompts from motionsites.ai for futuristic landing pages, plus their implementations (one directory per prompt).",
+  "instruction_files": {
+    "canonical": "AGENTS.md",
+    "compatibility_pointer": "CLAUDE.md"
+  },
+  "docs": {
+    "directory": "md",
+    "readme": "md/README.md",
+    "running": "md/running.md",
+    "plan": "md/plan.md"
+  },
+  "conventions": {
+    "prompt_to_directory_mapping": "each <name>.md prompt at the repo root pairs with a <name>/ implementation directory",
+    "reference_implementation": "lithos",
+    "use_md_directory_for_working_docs": true,
+    "keep_running_and_plan_in_sync": true,
+    "prefer_explicit_checked_in_config": true
+  },
+  "environment": {
+    "example_file": ".env.example"
+  }
+}
